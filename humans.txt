@@ -1,0 +1,8 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+Hello this is my personal website. Everything I have built has been on top of boilerplate 5.3.0
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Apache Server Configs, jQuery, Modernizr, Normalize.css

@@ -1,0 +1,29 @@
+@media only screen and (max-device-width: 480px) {
+    #menuBar{
+        height: 65px;
+    }
+
+    #home{
+
+    }
+    #homeContent{
+        top: 15%;
+    }
+
+    #about{
+        height: 100vh;
+    }
+
+    #portfolio{
+        height: 100vh;
+    }
+
+    #blog{
+        height: 100vh;
+    }
+
+    #contact{
+        height: 100vh;
+    }
+
+}

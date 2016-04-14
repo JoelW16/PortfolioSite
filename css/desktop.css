@@ -1,0 +1,184 @@
+#menuBar
+{
+    float: left;
+    top:0;
+    z-index: 5;
+    position: fixed;
+    width: 100%;
+    background: #212121;
+    height: 38px;
+    padding: 15px;
+    box-sizing: content-box;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,1);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,1);
+}
+
+
+#menuHeader a
+{
+    box-sizing: content-box;
+    height:30px;
+    padding-top: 8px;
+    margin: 0 20px;
+    color: #fff;
+    font: normal 20px arial;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+
+#menuNav ul
+{
+    position: relative;
+    list-style-type: none;
+    float:left;
+    padding:0;margin:0;
+}
+#menuNav li
+{
+    float:left;
+    list-style-type: none;
+    padding:0;margin:0;background-image:none;
+}
+
+#menuNav li a
+{
+    box-sizing: content-box;
+    height:30px;
+    padding-top: 13px;
+    margin: 0 20px;
+    color: #fff;
+    font: normal 14px arial;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+
+#menuContact{
+    margin-right: 30px;
+}
+
+#menuContact a{
+
+    box-sizing: content-box;
+    height:30px;
+    padding-top: 9px;
+    margin: 0 5px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+
+#mainContent{
+    overflow-x: hidden;
+}
+
+#home {
+    float: left;
+    width: 100%;
+    height:100vh;
+    background:url("../img/sussex.jpg") no-repeat fixed center center;
+    background-size: cover;
+}
+
+#homeContent{
+    color: white;
+    position: absolute;
+    top: 8%;
+    left: 10%;
+}
+
+#about {
+    color: white;
+    float: left;
+    height:100vh;
+    width:100%;
+    background: #212121;
+}
+
+#aboutContent{
+    margin-top:6em;
+    margin-left:2em;
+    width: 60%;
+}
+
+#aboutImage{
+    position: absolute;
+    top: 20%;
+    margin-left: 65%;
+}
+
+#portfolio {
+    color: white;
+    float: left;
+    height: 500px;
+    width:100%;
+    background: #434343;
+}
+
+#portfolioContent{
+    margin-top:6em;
+    margin-left:2em;
+}
+
+#blog {
+    color: white;
+    float: left;
+    height: 500px;
+    width:100%;
+    background: #212121;
+}
+
+#blogContent{
+    margin-top:6em;
+    margin-left:2em;
+}
+
+#contact {
+    overflow-x: hidden;
+    color: #212121;
+    float: left;
+    height: 500px;
+    width:100%;
+    background: #eaeaea;
+}
+
+#contactContent{
+    margin-top:5em;
+    margin-left:2em;
+}
+
+#footer{
+    overflow-x: hidden;
+    float: left;
+    width: 100%;
+    background: #212121;
+    height: 38px;
+    padding: 15px;
+}
+
+#footerContent{
+    box-sizing: content-box;
+    height:30px;
+    padding-top: 13px;
+    margin: 0 20px;
+    color: #fff;
+    font: normal 14px arial;
+    text-align: left;
+}
+
+body{
+    overflow-x: hidden;
+    background: #212121;
+}
